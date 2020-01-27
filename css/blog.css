@@ -1,0 +1,40 @@
+.main-blog {
+  background-color: #0c062e;
+}
+.main-blog__container {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+.main-blog .main-blog__list {
+  margin: 0em 1.2em;
+}
+.main-blog__list .blog__time span {
+  color: #b01ba5;
+}
+.main-blog ul {
+  display: flex;
+}
+.blog__time {
+  font-size: 1.3rem;
+  margin-bottom: 1.5em;
+  color: white;
+}
+
+.blog__content {
+  font-weight: 700;
+  color: dimgrey;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+.blog__read-more {
+  color: white;
+}
+.blog__read-more span i:nth-child(1) {
+  color: #b01ba5;
+}
+.blog__read-more span i:nth-child(2) {
+  color: #b01ba5;
+  opacity: 80%;
+}
