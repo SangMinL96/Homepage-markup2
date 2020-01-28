@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap");
 @import "main-img.css";
 @import "blog.css";
-@import "latest-news.css";
+@import "blog2__left.css";
+@import "blog2__right.css";
 * {
   box-sizing: border-box;
 }
@@ -17,6 +18,11 @@ a {
 }
 h2 {
   font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+h3 {
+  font-size: 1.1rem;
   font-weight: 700;
   color: white;
 }
