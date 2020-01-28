@@ -1,0 +1,81 @@
+.main-blog2__right {
+  display: flex;
+  flex-direction: column;
+}
+.small-blog__img img {
+  width: 4.5vw;
+  height: 9vh;
+  margin-bottom: 2em;
+}
+.TRENDING-content {
+  display: flex;
+}
+.TRENDING-title {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2em;
+}
+.small-blog__list {
+  margin-left: 1em;
+}
+.small-blog__time {
+  color: dimgrey;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.small-blog__time span {
+  color: #b01ba5;
+}
+.small-blog__title {
+  margin-top: 0.7em;
+  line-height: 1.5;
+}
+
+.CATEGORIES {
+  background-color: #34164b;
+  width: 15vw;
+  height: 45vh;
+  padding: 4em 2.3em;
+}
+.CATEGORIES-title {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2em;
+}
+
+.CATEGORIES-list {
+  color: dimgrey;
+  font-weight: 700;
+}
+.CATEGORIES-list .list-title {
+  margin-bottom: 15%;
+  cursor: pointer;
+}
+.CATEGORIES-list span {
+  font-size: 0.8rem;
+  color: #b01ba5;
+  display: none;
+
+  animation: next-icon 0.5s ease-in-out forwards;
+}
+.CATEGORIES-list span i:nth-child(2) {
+  color: #b01ba6b7;
+}
+.CATEGORIES-list .list-title:hover {
+  color: #b01ba5;
+}
+.CATEGORIES-list .list-title:hover span {
+  display: inline-block;
+}
+@keyframes next-icon {
+  0% {
+    opacity: 0%;
+    transform: translateX(1.2em);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateX(0em);
+  }
+}
