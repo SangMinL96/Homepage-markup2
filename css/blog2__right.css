@@ -1,10 +1,11 @@
 .main-blog2__right {
   display: flex;
   flex-direction: column;
+  margin-left: 3em;
 }
 .small-blog__img img {
-  width: 4.5vw;
-  height: 9vh;
+  width: 90px;
+  height: 90px;
   margin-bottom: 2em;
 }
 .TRENDING-content {
@@ -34,8 +35,8 @@
 
 .CATEGORIES {
   background-color: #34164b;
-  width: 15vw;
-  height: 45vh;
+  width: 300px;
+  height: 460px;
   padding: 4em 2.3em;
 }
 .CATEGORIES-title {
@@ -50,7 +51,7 @@
   font-weight: 700;
 }
 .CATEGORIES-list .list-title {
-  margin-bottom: 15%;
+  margin-bottom: 2em;
   cursor: pointer;
 }
 .CATEGORIES-list span {
@@ -78,4 +79,9 @@
     opacity: 100%;
     transform: translateX(0em);
   }
+}
+.add-img img {
+  width: 300px;
+  height: 300px;
+  margin-top: 6em;
 }
