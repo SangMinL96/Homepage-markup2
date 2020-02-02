@@ -1,0 +1,54 @@
+.email__container {
+  margin: 0 auto;
+  width: 1200px;
+  padding-top: 6em;
+  height: 25em;
+}
+.email-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+.email__search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6em;
+}
+.email__search input {
+  width: 760px;
+  border: none;
+  border-bottom: 2px solid rebeccapurple;
+  padding: 20px 0px;
+}
+.subscribe {
+  position: relative;
+}
+.subscribe span:nth-child(1) {
+  position: absolute;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background-color: rgb(195, 0, 255);
+  padding: 35px 102px;
+  left: 40px;
+  bottom: -20px;
+}
+.subscribe span:nth-child(2) {
+  position: relative;
+
+  font-size: 0.8rem;
+  font-weight: 700;
+  background-color: rgb(0, 255, 85);
+  padding: 28px 55px;
+  left: 30px;
+  bottom: 20px;
+}
+.subscribe span:nth-child(2) i:nth-child(1) {
+  color: #d741cc;
+  margin-left: 12px;
+}
+.subscribe span:nth-child(2) i:nth-child(2) {
+  color: #d741cc;
+  opacity: 70%;
+}
