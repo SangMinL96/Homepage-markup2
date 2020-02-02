@@ -4,6 +4,8 @@
 @import "blog.css";
 @import "blog2__left.css";
 @import "blog2__right.css";
+@import "big-blog.css";
+@import "email.css";
 * {
   box-sizing: border-box;
 }
